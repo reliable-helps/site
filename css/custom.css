@@ -1,0 +1,587 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    background-color: #F2F2F2;
+}
+.container{
+    padding: 0;
+}
+#main-navigation {
+    /* padding: 1%; */
+}
+#main-navigation .navbar-brand{
+    padding: 0%;
+}
+#main-navigation{
+    background-color: #fff;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+#myNav{
+    /* border: 2px solid #174873;
+    width: 80%;
+    padding: 4% 6%; */
+}
+#myNav .nav-item .nav-link{
+    text-transform: uppercase;
+    color: #174873;
+    font-weight: 500;
+    line-height: 8em;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#myNav .nav-item .nav-link:hover{
+    color: #8C2B2B;
+    font-weight: 700;
+    background-color: #557A94;
+}
+
+.rh-brand-hands {
+    /* position: absolute;
+    top: 0;
+    right: 5.5%;  */
+}
+
+@-webkit-keyframes wiggle {
+    0% {
+        -webkit-transform: rotate(5deg);
+    }
+
+    50% {
+        -webkit-transform: rotate(-5deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(5deg);
+    }
+}
+
+@-moz-keyframes wiggle {
+    0% {
+        -moz-transform: rotate(5deg);
+    }
+
+    50% {
+        -moz-transform: rotate(-5deg);
+    }
+
+    100% {
+        -moz-transform: rotate(5deg);
+    }
+}
+
+@keyframes wiggle {
+    0% {
+        transform: rotate(5deg);
+    }
+
+    50% {
+        transform: rotate(-5deg);
+    }
+
+    100% {
+        transform: rotate(5deg);
+    }
+}
+.rh-brand-hands img {
+    border-radius: 100%;
+    height: 90px;
+    opacity: 0.7;
+}
+.rh-brand-hands img:hover{
+    -webkit-animation: wiggle 0.2s;
+    -moz-animation: wiggle 0.2s;
+    animation: wiggle 0.2s;
+    opacity: 1;
+}
+.navbar-light .navbar-toggler{
+    border-color:#174873;
+}
+.full-gallery-button{
+    text-align: center;
+    
+}
+.full-gallery-button a{
+    text-transform: uppercase;
+    background-color: #0e3d59;
+    color: #fff;
+    padding: 6px 60px;
+    line-height: 16px;
+}
+.carousel{
+    margin-bottom: 12px;
+}
+.header-gallery{
+    padding-top: 2%;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #6092A6;
+}
+ .grid{
+    display: grid;
+}
+
+.services{
+    padding-top: 20px;
+    
+}
+.services h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: #8C2B2B;
+    padding-bottom: 40px;
+    margin-bottom: 0;
+}
+.service-card{
+    border: 1px solid #174873;
+
+}
+.media{
+    grid-column: 1/4;
+}
+.media-body{
+    border: 1px solid #6092A6;
+}
+
+.media-body p{
+    padding: 25px 25px 69px 25px;
+}
+.media_image {
+    width: 20%;
+}
+.myButton {
+    -moz-box-shadow: inset 0px 4px 2px -50px #b54b3a;
+    -webkit-box-shadow: inset 0px 4px 2px -50px #b54b3a;
+    box-shadow: inset 0px 4px 2px -50px #b54b3a;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #a73f2d), color-stop(1, #b34332));
+    background: -moz-linear-gradient(top, #a73f2d 5%, #b34332 100%);
+    background: -webkit-linear-gradient(top, #a73f2d 5%, #b34332 100%);
+    background: -o-linear-gradient(top, #a73f2d 5%, #b34332 100%);
+    background: -ms-linear-gradient(top, #a73f2d 5%, #b34332 100%);
+    background: linear-gradient(to bottom, #a73f2d 5%, #b34332 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a73f2d', endColorstr='#b34332', GradientType=0);
+    background-color: #a73f2d;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    display: inline-block;
+    cursor: pointer;
+    color: #6092a6;
+    font-family: Verdana;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20px 60px;
+    text-decoration: none;
+    text-shadow: 3px 5px 2px #7a2a1d;
+}
+
+.myButton:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #b34332), color-stop(1, #a73f2d));
+    background: -moz-linear-gradient(top, #b34332 5%, #a73f2d 100%);
+    background: -webkit-linear-gradient(top, #b34332 5%, #a73f2d 100%);
+    background: -o-linear-gradient(top, #b34332 5%, #a73f2d 100%);
+    background: -ms-linear-gradient(top, #b34332 5%, #a73f2d 100%);
+    background: linear-gradient(to bottom, #b34332 5%, #a73f2d 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b34332', endColorstr='#a73f2d', GradientType=0);
+    background-color: #b34332;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+.get-quote-block{
+    text-align: center;
+    
+}
+.get-quote-block .quote-button{
+    padding: 1%;
+    border-top: 2px solid #6092A6;
+}
+.form-block{
+    width: 100%;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background: linear-gradient(to right, #174873, #8C2B2B);
+    text-align: -webkit-center;
+}
+.form-wrap{
+    min-width: 50%;
+    max-width: 500px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 42px 55px 45px 55px;
+}
+.form{
+    width: 100%;
+}
+.form-block-title{
+    display: block;
+    font-size: 3rem;
+    color: #333333;
+    line-height: 1.2;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.input-wrap{
+    width: 100%;
+    position: relative;
+    border-bottom: 2px solid #d9d9d9;
+    padding-bottom: 13px;
+    margin-bottom: 10px;
+}
+.validate-input {
+    position: relative;
+}
+.label{
+    font-size: 1em;
+    color: #333333;
+    line-height: 1.5;
+    padding-left: 5px;
+}
+.input{
+    height: 40px;
+    display: block;
+    width: 100%;
+    background: transparent;
+    font-size: 18px;
+    color: #333333;
+    line-height: 1.2;
+    padding: 0 5px;
+    border: none;
+}
+#chosed-service{
+    color: #666666;
+}
+textarea.input{
+    border: 2px solid #d9d9d9;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 247px;
+}
+.selection{
+    width: 100%;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    height: 40px;
+    outline: none;
+    position: relative;
+}
+.alert-validate::before {
+    content: attr(data-validate);
+    position: absolute;
+    max-width: 70%;
+    background-color: #fff;
+    border: 1px solid #c80000;
+    border-radius: 2px;
+    padding: 4px 25px 4px 10px;
+    top: 58%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 2px;
+    pointer-events: none;
+
+    /* font-family: Poppins-Regular; */
+    color: #c80000;
+    font-size: 13px;
+    line-height: 1.4;
+    text-align: left;
+
+    visibility: hidden;
+    opacity: 0;
+
+    -webkit-transition: opacity 0.4s;
+    -o-transition: opacity 0.4s;
+    -moz-transition: opacity 0.4s;
+    transition: opacity 0.4s;
+}
+.alert-validate::after {
+    content: "⚠";
+    /* font-family: FontAwesome; */
+    display: block;
+    position: absolute;
+    color: #c80000;
+    font-size: 16px;
+    top: 58%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 8px;
+}
+.alert-validate:hover:before {
+    visibility: visible;
+    opacity: 1;
+}
+@media (max-width: 992px) {
+    .alert-validate::before {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+.footer h2,
+#contact-info h2{
+    text-align: center;
+    padding-top: 40px;
+    border-top: 2px solid #6092A6;
+    color: #8C2B2B;
+}
+.main-phone-number,
+.main-email {
+    text-align: center;
+    font-size: 2em;
+}
+
+.main-phone-number i{
+    color: #8C2B2B;
+    padding-right: 16px;
+}
+.footer .row div:last-child {
+    text-align: end;
+} 
+
+
+/* -------- Gallery page --------- */
+
+.gallery-block.grid-gallery {
+    padding-bottom: 60px;
+    padding-top: 0;
+}
+
+.gallery-block.grid-gallery a:hover {
+    opacity: 0.8;
+}
+
+.gallery-block.grid-gallery .item img {
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+    transition: 0.4s;
+}
+
+.gallery-block.grid-gallery .item {
+    margin-bottom: 20px;
+}
+
+/* Administrative solutions page */
+.container-fluid{
+    padding: 0 !important;
+}
+.accent-color{
+    color: #8C1843;
+    font-weight: 500;
+}
+.header-rh{
+    background: url("../images/blue-and-silver-stetoscope.jpg");
+   
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    margin-bottom: -33px;
+    
+}
+.nav-item{
+    text-transform: capitalize;
+}
+#navbar-nav-rh .nav-link {
+    color: #8C1843;
+}
+#navbar-nav-rh .nav-link:hover,
+#navbar-nav-rh .nav-link:active {
+    color: #0E3D59;
+}
+#navbar-rh, .jumbotron{
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    border-top: 2px solid #8C1843;
+}
+.display-4{
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 1.2;
+    text-align: center;
+    color: #0e3d59;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    width: 80%;
+    margin: 0 auto;
+}
+.who-are-we .card{
+    background-color: #8C1843;
+    color: #F2F2F2;
+    border-radius: 0%;
+}
+.who-are-we-image {
+    padding: 2% 2% 2% 2% !important;
+}
+.what-we-offer .card{
+    border-radius: 0%;
+    margin-top: -17px;
+    margin-bottom: 0 !important;
+        background-color: rgba(242, 242, 242, 0.3);
+}
+.what-we-offer .card{
+    background-image: url(../images/young-woman-holding-a-stethoscope.jpg);
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    padding: 2%;
+}
+
+.what-we-offer .card .overlayer{
+    background-color: rgba(242, 242, 242, 0.4);
+
+}
+.what-we-offer .card .list-group-item{
+    background-color: transparent;
+
+}
+.what-we-offer .card .list-group-item .fa.fa-check{
+    margin-right: 5%;
+}
+.what-we-offer .card-title{
+    text-align: center;
+}
+.what-we-offer .card .list-group{
+    margin-top: 10%;
+}
+.how-we-do-it .card {
+    /* background-image: url(../images/How-Long-to-Keep-Paperwork-1.jpg); */
+    background-color: #8C1843;
+    color: #fff;
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    padding: 2%;
+    border-radius: 0%;
+    margin-bottom: 0 !important;
+}
+.problem-solve .card{
+    background-image: url(../images/How-Long-to-Keep-Paperwork-1.jpg);
+    background-position: center;
+     /* Center the image */
+    background-repeat: no-repeat;
+     /* Do not repeat the image */
+    background-size: cover;
+    padding: 2%;
+    text-align: center;
+    color: #0e3d59;
+    border-radius: 0%;
+}
+.problem-solve .card .card-body{
+    background-color: rgba(242, 242, 242, 0.5);
+}
+#to-rhelps{
+    display: none;
+}
+
+
+@media only screen and (max-width: 400px){
+    #navbar-rh .navbar-brand img{
+        width: 200px;
+    }
+    .rh-header .display-4{
+        font-size: 2rem;
+    }
+    #contact-info .main-phone-number,
+    #contact-info .main-email{
+        font-size: 1em;
+    }
+    .form-block-title{
+        font-size: 2rem;
+        padding-bottom: 1rem;
+    }
+
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #main-navigation{
+        border-radius: 0%;
+        background-color: transparent;
+    }
+    #contacts .row .contacts,
+    #contacts .row .business-hours{
+        text-align: center;
+    }
+    
+}
+
+@media (max-width: 576px) {
+    .gallery-block.grid-gallery .scale-on-hover:hover {
+        transform: scale(1.05);
+        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important;
+    }
+    #to-rhelps {
+        display: block;
+    }
+    #main-navigation{
+        background-color: #fff;
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    .rh-brand-hands img {
+        /* opacity: 1; */
+        display: none;
+    }
+    #contacts .row .contacts,
+    #contacts .row .business-hours {
+         text-align: center;
+     }
+    #to-rhelps {
+        display: block;
+    }
+    #main-navigation {
+        background-color: #fff;
+    }
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+   .rh-brand-hands img {
+       opacity: 1;
+   }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .rh-brand-hands{
+        display: none;
+    }
+    #to-rhelps{
+        display: block;
+    }
+    #myNav .nav-item .nav-link {
+        line-height: 4em;
+    }
+}
+@media (min-width: 992px) and (max-width: 1198px) {
+    #myNav {
+        width: 90%;
+        padding: 2%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+    
+}
