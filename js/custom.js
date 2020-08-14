@@ -40,6 +40,7 @@
                         <option>Flooring</option>
                         <option>Shelving</option>
                         <option>Appliance repair and installation</option>
+                        <option>Cleaning</option>
                         <option>Other</option>
                     </select>
                 </div>
