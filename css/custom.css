@@ -8,9 +8,6 @@ body{
 .container{
     padding: 0;
 }
-#main-navigation {
-    /* padding: 1%; */
-}
 #main-navigation .navbar-brand{
     padding: 0%;
 }
